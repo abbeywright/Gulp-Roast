@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #D98555;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+  }
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+
+  }
+
+  img {
+    max-width: 100%;
+  }
+  a {
+    color: #59331d;
+    font-weight: 700;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  header {
+    background-color: #D98555;
+    border-bottom: 10px solid #082B59;
+  }
+ 
+.nav {
+  border: 10px solid #082B59;
+}
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: 200px;
+  }
+
+  nav li {
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1.3rem;
+  }
+
+  nav .logo img {
+    max-width: 150px;
+  }
+
+  nav .logo {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  nav a {
+    color:  #59331d;
+    text-decoration: none;
+    display: block;
+    
+  }
+  nav a:hover {
+    color: #FFFFFF;
+  }
+
+  .main-bkgd {
+    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+  }
+
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 600px;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  article {
+    flex-basis: 73%;
+    max-width: 75%;
+  }
+ 
+  figure {
+    margin: 3rem 0 0 0;
+    flex-basis: 25%;
+    background-color: #59331d;
+    border-radius: 10px;
+  }
+  figure img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  figcaption {
+    color: #f2f2f2;
+    padding: 0.5rem;
+  }
+  .button {
+    display: inline-block;
+    background-color: #59331D;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid #59331d;
+  }
+  .button:hover {
+    background-color: #f2f2f2;
+    color: #59331d;
+  }
+  
+
+
+  #carouselExample {
+    border: 30px solid #FFFFFF; 
+    overflow: hidden;
+  }
+  
+  #carouselExample .carousel-caption {
+    background-color: rgba(84, 48, 26, 0.601); 
+    padding: 15px; 
+    border-radius: 5px; 
+    justify-content: center;
+  }
+  
+  .carousel-slide {max-width: 70%;
+    justify-content: center;
+}
+
+
+.footer-container {
+  background-color: #D98555;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-top: 10px solid #082B59;
+}
+
+.footer-container nav a {
+  color: white;
+  margin: 0 10px;
+}
+
+.footer-container nav a:hover {
+  color: #59331d;
+}

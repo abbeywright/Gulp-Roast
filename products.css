@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+  }
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  a {
+    color: #59331d;
+    font-weight: 700;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  header {
+    background-color: #D98555;
+    border-bottom: 10px solid #082B59;
+  }
+ 
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: 200px;
+  }
+  nav li {
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1.3rem;
+  }
+
+  nav .logo img {
+    max-width: 150px;
+  }
+
+  nav .logo {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  nav a {
+    color:  #59331d;
+    text-decoration: none;
+    display: block;
+    
+  }
+  nav a:hover {
+    color:  #ffffff;
+  }
+
+  .main-bkgd {
+    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+  }
+
+
+.productsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; 
+    justify-content: center; 
+  }
+  
+  .card {
+    flex: 1 1 18rem; 
+    max-width: 18rem; 
+    margin: 50px; 
+  }
+  
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.shop-now-btn {
+  width: 100%; 
+  background-color: #59331d; 
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px; 
+
+}
+
+.shop-now-btn:hover {
+  background-color: #D98555;
+  transform: scale(1.05); 
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .shop-now-btn {
+      width: auto;
+      padding: 15px 30px; 
+      font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .shop-now-btn {
+      font-size: 0.9rem; 
+      padding: 8px 16px;}
+  }   
+
+.bottom-beans {
+  width: 100%;
+}
+
+  .footer-container {
+    background-color: #D98555;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-top: 10px solid #082B59;
+}
+
+.footer-container nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-container nav a:hover {
+    text-decoration: underline;
+    color: #59331d;
+}
